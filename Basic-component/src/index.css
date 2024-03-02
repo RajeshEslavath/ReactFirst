@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(45, 2, 2);
+    color: rgb(58, 74, 74);
+}
+body:hover{
+    color: azure;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border-color: rgb(62, 2, 2);
+    border-radius: 10PX;
+}
+.movies{
+    display: flex;
+    gap: 50px 50px;
+
+}
+.movie{
+    background-color: rgb(99, 2, 2);
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgb(58, 138, 1);
+    border-radius: 20px;
+}
