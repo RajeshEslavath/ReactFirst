@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    place-items: center;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: rgb(93, 88, 88);
+}
+input{
+    background-color: black;
+    color: azure;
+    border-radius: 15px;
+    min-height: 25px;
+    min-width: 80px;
+}
+

@@ -1,10 +1,10 @@
-function Movie(props)
+function Movie(title,url)
 {
-    console.log(props)
+    console.log(title,url)
     return(
         <div className="movie">
-            <img src={props.url} alt="Movies"/><br/>
-            <span>{props.title}</span>
+            <img src={url} alt="Movies"/><br/>
+            <span>{title}</span>
         </div>
     )
 }
