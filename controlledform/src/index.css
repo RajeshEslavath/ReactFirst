@@ -1,0 +1,33 @@
+body {    
+  background-image: url("Roseflower.webp");        
+  display: flex;
+  place-items: center;
+  color: rgb(4, 245, 245);
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(123, 3, 3);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+input{
+  height: 30px;
+  width: 350px;
+  color: aquamarine;
+  background-image: url("Roseflower.webp");
+  border-radius: 10px;
+  padding: auto;
+}
+button
+{
+  background-image: url("Roseflower.webp");
+  height: 30px;
+  width: 150px;
+  padding: auto;
+  font-size: 1rem;
+  text-align: center;
+  color: aqua;
+  border-radius: 10px;
+}
