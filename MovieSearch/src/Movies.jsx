@@ -13,7 +13,7 @@ const Movies = ({moviesList}) =>
             width="250"
             alignitem="center"
             />
-           <a href='https://www.imdb.com/'><h3>{movie.Title}</h3></a>
+            <h3>{movie.Title}</h3>
            <p>Released: {movie.Year}</p>
             </div></span>
         ))}

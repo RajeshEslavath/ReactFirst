@@ -1,0 +1,29 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "Title": "RRR",
+      "Year": 2022,
+      "Poster": "https://w0.peakpx.com/wallpaper/830/395/HD-wallpaper-rrr-movie-rrr.jpg"
+    },
+    {
+      "id": "2",
+      "Title": "Salaar",
+      "Year": 2023,
+      "Poster": "https://pragativadi.com/wp-content/uploads/2023/12/download-19.jpg"
+    },
+    {
+      "id": "3",
+      "Title": "HanuMan",
+      "Year": 2024,
+      "Poster": "https://i.imgur.com/fvqCetJ.jpg"
+    },
+    {
+      "id":4,
+      "Title":"Pupsha",
+      "Year":2021,
+      "Poster":"https://static.toiimg.com/thumb/msid-88333298,imgsize-105090,width-400,resizemode-4/88333298.jpg"
+    }
+  ],
+  "books": []
+}

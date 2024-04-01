@@ -1,5 +1,4 @@
-import { useEffect } from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Movies from './Movies'
 import './App.css'
 
@@ -21,7 +20,7 @@ function App()
   return (
     <>
     <div>
-      <input type="text" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)}/>
+      <input type="text" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} placeholder='Search the Movies here'/>
       <Movies moviesList={moviesList}/>
     </div>
     </>

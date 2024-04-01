@@ -5,6 +5,7 @@ const App = () => {
   const [formDetails, setFormDetails] = useState({
     username: "",
     email: "",
+    password:" "
   });
   const change=(e)=>
   {
@@ -20,7 +21,7 @@ const App = () => {
   return (
     <div style={{padding:"100px"}}>
       <h1>Contact Information</h1>
-      <form action="" className="myform" onSubmit={submit}>
+      <form action="" className="myform" onSubmit={submit} style={{backgroundImage:"url('RoseFlower.webp')",padding:"10px",borderRadius:"10px"}}>
         <input
           type="text"
           name="username"

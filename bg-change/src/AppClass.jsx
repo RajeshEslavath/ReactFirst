@@ -6,21 +6,19 @@ class AppClass extends Component
     constructor()
     {   super()
         this.state={
-            background:'#FFFFFF'
+            background:'#00000'
         }
     }
     change =()=>
     {
-        console.log(Math.round(Math.random()*10000000).toString(16))
+        console.log('Hi')
         const random_color="#"+Math.round(Math.random()*1000000).toString(16);
-   
-        console.log(random_color)
-        this.setState(random_color) 
+        this.setState({background:random_color}) 
     }
     render(){
         return(
             <div className="changer" style={{backgroundColor:this.state.background}}>
-                <input type="color" name="color" id="color" onChange={this.change} formTarget="this.change" />
+                <button onClick={this.change}>change</button>
             </div>
         )
     }
